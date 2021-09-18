@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
+  <title>Reza Maranelo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<header>
+  <p id="Text" class="HeaderText">
+    Reza Maranelo's CV
+  </p>
+</header>
+<div>
+  <h1 class="Greet">
+    Welcome!
+  </h1>
+  <img src="profile.JPG" alt="ProfilePic" class="ProfilePhoto" id="ProfPic">
+  <h1 class="Name">
+    I am Reza Maranelo
+  </h1>
+  <h2 class="Intro">
+    I am a computer science student with interest in Capture The Flag, Network Security, and UI/UX Design.
+    During my study, I managed to learn C/C++, Java, JavaScript, Python, and R Language.
+    My hobby includes playing games and learning new things.
+    You can call me by "Reza"
+  </h2>
+</div>
+<h1 class="Title">
+  General Information
+</h1>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Biodata')" id="defaultOpen">Biodata</button>
+  <button class="tablinks" onclick="openCity(event, 'Education')">Education</button>
+  <button class="tablinks" onclick="openCity(event, 'Skills')">Skills</button>
+</div>
+
+<div id="Biodata" class="tabcontent hidden">
+  <h2>Biodata</h2>
+  <p class="Bio">Name : Reza Maranelo Alifiansyah </p>
+  <p class="Bio">Birth Date : July 14th 2002 </p>
+  <p class="Bio">Birth Place : Malang</p>
+  <p class="Bio">Email : <a onclick="OpenMail()" href="#" title="E-Mail me!" id="Email" class="Gmail"> rezamaranelo@gmail.com
+  </a></p>
+  <p class="Bio">Phone Number : +62 857 8051 0899 <button onclick="CopyPhoneNumber()" title="Copy my phone number!" id="PhoneNumber" class="Phone">
+    Copy my phone number!
+  </button> </p>
+</div>
+<div id="Education" class="tabcontent hidden">
+  <img src="LogoITS.png" alt="LogoITS" id="ITS" class="ITSLogo">
+  <h2 class="Univ">Institut Teknologi Sepuluh Nopember (2020 - Now)</h2>
+  <h3 class="Departement">Informatics Engineering</h3>
+  <h4 class="Org">GPA 3.41</h4>
+  <h4 class="Org">Staff of Schematics REEVA</h4>
+  <h4 class="Org">Member of Seaborg ITS</h4>
+
+  <img src="LogoSMA.png" alt="LogoSMA" id="SMA" class="SMALogo">
+  <h2 class="SMA">SMA Negeri 1 Bekasi (2017 - 2020)</h2>
+  <h3 class="Minat">Math and Natural Sciences</h3>
+  <h4 class="Eskul">Member of Trickster Flag Football</h4>
+  <h4 class="Eskul">Logistic Division Of Sahur On The Road 2019</h4>
+</div>
+<div id="Skills" class="tabcontent hidden">
+  <p>C/C++</p>
+  <div class="container">
+    <div class="skills CPP">70%</div>
+  </div>
+
+  <p>Java</p>
+  <div class="container">
+    <div class="skills Java">55%</div>
+  </div>
+
+  <p>JavaScript</p>
+  <div class="container">
+    <div class="skills JS">30%</div>
+  </div>
+
+  <p>Python</p>
+  <div class="container">
+    <div class="skills Python">50%</div>
+  </div>
+
+  <p>R Language</p>
+  <div class="container">
+    <div class="skills R">40%</div>
+  </div>
+</div>
+
+<h1>
+  Social Media
+</h1>
+<div>
+  <a href="https://www.youtube.com/channel/UCjG5xTRYt_TBjODf4vxmszA" class="fa fa-youtube"></a>
+  <a href="https://www.instagram.com/reza_maranelo/" class="fa fa-instagram"></a>
+  <a href="https://github.com/SilkTofu" class="fa fa-github"></a>
+</div>
+</html>
